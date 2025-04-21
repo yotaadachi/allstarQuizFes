@@ -1,0 +1,40 @@
+
+body {
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .question {
+    font-size: 24px;
+  }
+  
+  .option {
+    background-color: #003366 !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #0055aa !important;
+  }
+  
+  .badge {
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .character img {
+    width: 80px;
+  }
+  
+  .timer {
+    background-color: red;
+  }
+  
